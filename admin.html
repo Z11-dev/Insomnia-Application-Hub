@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body onload="render('pending')">
+
+<header>Admin Dashboard</header>
+
+<div class="container">
+
+<button onclick="render('pending')">Pending</button>
+<button onclick="render('accepted')">Accepted</button>
+<button onclick="render('declined')">Declined</button>
+
+<div id="apps"></div>
+
+</div>
+
+</body>
+</html>
