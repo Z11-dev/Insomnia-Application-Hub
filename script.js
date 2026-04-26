@@ -5,7 +5,7 @@ const accounts = [
 ];
 
 // 🔗 DISCORD WEBHOOK
-const webhookURL = "https://discord.com/api/webhooks/1497999198547607668/J--pTU4EDDaYjvgqyd5LO3MwYOHQkFGZllIgSQK8azj1lLYWx8wqf-AoOKj__oBJhviH";
+const webhookURL = "NA";
 
 // LOAD DATA
 let apps = JSON.parse(localStorage.getItem("apps")) || [];
